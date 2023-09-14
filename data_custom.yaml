@@ -1,0 +1,17 @@
+train: D:/Source/python/yolov8_custom-main/datasets/train #folder location for training dataset. when using relative location, the root is datasets folder
+val: D:/Source/python/yolov8_custom-main/datasets/val #folder location for validation dataset
+nc: 1 #number of classes
+names: ["Drawing Paper"] #class names, the order must follow the same order as the classes.txt
+
+
+#path: (เส้นทางของไดเรกทอรีข้อมูล)
+#train: (เส้นทางของไดเรกทอรีข้อมูลการฝึกอบรม)
+#test: (เส้นทางของไดเรกทอรีข้อมูลการทดสอบ)
+#valid: (เส้นทางของไดเรกทอรีข้อมูลการตรวจสอบความถูกต้อง)
+#
+## จำนวนคลาส
+#nc: 5 # แทนตามจำนวนคลาสของชุดข้อมูลของคุณ
+#
+## ชื่อคลาส
+## แทนชื่อคลาสทั้งหมดด้วยชื่อคลาสของคุณเอง
+#names: ['คลาส1', 'คลาส2', 'คลาส3', 'คลาส4', 'คลาส5']
